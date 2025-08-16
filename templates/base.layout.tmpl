@@ -1,0 +1,23 @@
+{{define "base"}}
+    <!doctype html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Document</title>
+        <link href="/css/bootstrap.min.css" rel="stylesheet">
+        {{block "styles" .}}
+
+        {{end}}
+    </head>
+    <body>
+    {{block "content" .}}
+    {{end}}
+
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    {{block "js" .}}
+
+    {{end}}
+    </body>
+    </html>
+{{end}}
