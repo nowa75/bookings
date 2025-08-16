@@ -5,6 +5,6 @@ The repository for [Building Modern Web Applications with Go](https://www.udemy.
 
 
 - Built in Go version 1.23
-- Uses the [chi router](github.com/go-chi/chi)
-- Uses [alex edwards scs session management](github.com/alexedwards/scs)
-- Uses [nosurf](github.com/justinas/nosurf)
+- Uses the [chi router](https://github.com/go-chi/chi/v5)
+- Uses [alex edwards scs session management](https://github.com/alexedwards/scs/v2)
+- Uses [nosurf](https://github.com/justinas/nosurf)
